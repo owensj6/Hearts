@@ -1,6 +1,6 @@
 # Makefile for Hearts in terminal
 build:
-	@ gcc -o Hearts.app -fobjc-arc main.m
+	@ clang -Wall -fobjc-arc main.m common.m Game/game.m Hands/hands.m -o Hearts.app -framework Foundation
 
 test:
 	@ ./Hearts.app

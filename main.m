@@ -1,8 +1,8 @@
-#include <Foundation/Foundation.h>
+#import "common.h"
 
 int main(int argc, char* argv[]) {
     @autoreleasepool {
-        NSLog(@"Hooray beer! You are beginning your app");
+        startGame();
     }
     
     return 0;
