@@ -6,7 +6,9 @@
 
 @interface Hands : NSObject
 
-@property(nonatomic, weak) NSMutableArray* hand;
+@property(nonatomic, strong) NSMutableArray* hand;
+
+-(id)init;
 
 @end
 

@@ -5,9 +5,9 @@
 
 @interface Game : NSObject
 
-@property(nonatomic, weak) NSMutableArray* hands;
-@property(nonatomic, weak) NSMutableArray* drawPile;
-@property(nonatomic, weak) NSMutableArray* discardPile;
+@property(nonatomic, strong) NSMutableArray* hands;
+@property(nonatomic, strong) NSMutableArray* drawPile;
+@property(nonatomic, strong) NSMutableArray* discardPile;
 
 -(void) shuffle;
 

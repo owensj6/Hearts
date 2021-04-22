@@ -11,3 +11,5 @@ void startGame() {
     // Print the winner
     NSLog(@"The game is over!");
 }
+
+//NUMOFCARDSINHAND = @13;
